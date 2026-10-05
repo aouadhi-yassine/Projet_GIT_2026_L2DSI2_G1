@@ -9,7 +9,7 @@
 <body>
     <div class="container mt-4">
     <H1>Formulaire</H1>
-    <form action="form.php" method="post">
+    <form action="<?php $_SERVER['PHP_SELF']?>" method="post">
         <div class="mb-3">
             <input type="text" name="nom" id="" placeholder="Votre nom">
         </div>
